@@ -19,15 +19,17 @@ file_paths = {
     4: "guitarTest3",
     5: "guitarTest4",
     6: "guitarTest5",
-    7: "kneeSocksSimple",
-    8: "roommates",
-    9: "roommatesEffects",
-    10: "realTest",
-    11: "rUMine",
-    12: "rUMineReal",
-    13: "sweetChildOMine",
+    7: "guitarTest6",
+    8: "guitarTest7",
+    9: "kneeSocksSimple",
+    10: "roommates",
+    11: "roommatesEffects",
+    12: "realTest",
+    13: "rUMine",
+    14: "rUMineReal",
+    15: "sweetChildOMine",
 }
-audio_name = file_paths.get(10, "default")
+audio_name = file_paths.get(8, "default")
 filename = os.path.join(audio_dir, audio_name + ".mp3")
 
 y, sr = librosa.load(filename)
