@@ -10,6 +10,8 @@ and estimates the optimal fret position of each note using a dynamic-programming
 4. **Fret Optimizer:** Estimates optimal fret position by utilizing timing, minimal total distance, and a direction-movement weight.
 5. **Display:** Prints out the real frets and notes to the song along with both fret estimates using both algorithms to compare which is better for that song 
 
+When running program, it displays the fretboards for only one song. To change the song that is displayed, change the audio_name variable at the top of the fretpath.py file to the key value of the song you want
+
 ## Results
 Evaluated accuracy by comparing detected note sequences with the expected notes and taking the longest common subsequence between the two. 
 The accuracy is calculated after pooling all notes in each song
